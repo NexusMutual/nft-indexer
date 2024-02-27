@@ -1,0 +1,36 @@
+{
+  "name": "nft-indexer",
+  "version": "1.0.0",
+  "description": "NFT indexer",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "lint": "eslint --max-warnings 0 .",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NexusMutual/nft-indexer.git"
+  },
+  "author": "nexusmutual.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NexusMutual/nft-indexer/issues"
+  },
+  "homepage": "https://github.com/NexusMutual/nft-indexer#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-config-semistandard": "^17.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-mocha": "^10.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-standard": "^5.0.0"
+  }
+}
